@@ -1,4 +1,4 @@
-#Django Boilerplate Project
+# Django Boilerplate Project
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Django?style=flat-square)
 ![PyPI - Status](https://img.shields.io/pypi/status/django)
 ![APM](https://img.shields.io/apm/l/vim-mode)
