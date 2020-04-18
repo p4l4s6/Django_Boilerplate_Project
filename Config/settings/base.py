@@ -13,7 +13,7 @@ from decouple import config
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
@@ -97,6 +97,7 @@ USE_TZ = True
 
 # Custom Settings files (Third party tools, apps, library)
 
-# AUTH_USER_MODEL = 'coreapp.User'
-# LOGIN_REDIRECT_URL = '/'
-# LOGIN_URL = '/auth/login/'
+AUTH_USER_MODEL = 'coreapp.User'
+LOGIN_REDIRECT_URL = '/'
+LOGIN_URL = '/auth/login/'
+LOGOUT_REDIRECT_URL = '/'
