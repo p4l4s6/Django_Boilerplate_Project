@@ -33,7 +33,7 @@ This project includes:
     source venv/bin/activate
 5.Install requirements.
 
-    pip install -r requirements.txt
+    pip install -r requirements/development.txt
     
 6.Configure your Environment variables in **.env** file.
 
